@@ -1,0 +1,161 @@
+[gd_scene load_steps=5 format=3 uid="uid://dadlwdu0qs4se"]
+
+[ext_resource type="Texture2D" uid="uid://d4b765886l8f3" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Environments/Day-Platformer/PNG/sky.png" id="1_hrv7c"]
+[ext_resource type="Script" path="res://Player/BG.gd" id="1_hu1he"]
+[ext_resource type="Texture2D" uid="uid://clf4srvy64jwo" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Environments/Day-Platformer/PNG/clouds.png" id="3_5j3ii"]
+[ext_resource type="Texture2D" uid="uid://beuikigmefgbq" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Environments/Day-Platformer/PNG/trees.png" id="4_k8baw"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_hu1he")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(3125, 0)
+
+[node name="Sky" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1562, 726)
+scale = Vector2(195.375, 18.1563)
+texture = ExtResource("1_hrv7c")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(3125, 0)
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(3125, 0)
+
+[node name="Clouds" type="Sprite2D" parent="."]
+position = Vector2(302, 186)
+texture = ExtResource("3_5j3ii")
+
+[node name="Clouds2" type="Sprite2D" parent="."]
+position = Vector2(1048, 171)
+texture = ExtResource("3_5j3ii")
+
+[node name="Clouds4" type="Sprite2D" parent="."]
+position = Vector2(2349, 438)
+texture = ExtResource("3_5j3ii")
+
+[node name="Clouds7" type="Sprite2D" parent="."]
+position = Vector2(2688, 204)
+texture = ExtResource("3_5j3ii")
+
+[node name="Clouds5" type="Sprite2D" parent="."]
+position = Vector2(1857, 195)
+texture = ExtResource("3_5j3ii")
+
+[node name="Clouds6" type="Sprite2D" parent="."]
+position = Vector2(1375, 504)
+texture = ExtResource("3_5j3ii")
+
+[node name="Clouds3" type="Sprite2D" parent="."]
+position = Vector2(677, 438)
+texture = ExtResource("3_5j3ii")
+
+[node name="Trees" type="Sprite2D" parent="."]
+position = Vector2(173, 1267)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees2" type="Sprite2D" parent="."]
+position = Vector2(1682, 1256)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees7" type="Sprite2D" parent="."]
+position = Vector2(1682, 1256)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees8" type="Sprite2D" parent="."]
+position = Vector2(2629, 1253)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees11" type="Sprite2D" parent="."]
+position = Vector2(2961, 1264)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees12" type="Sprite2D" parent="."]
+position = Vector2(3264, 1251)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees13" type="Sprite2D" parent="."]
+position = Vector2(3264, 1251)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees14" type="Sprite2D" parent="."]
+position = Vector2(3264, 1251)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees15" type="Sprite2D" parent="."]
+position = Vector2(3264, 1251)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees16" type="Sprite2D" parent="."]
+position = Vector2(3264, 1251)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees17" type="Sprite2D" parent="."]
+position = Vector2(4973, 1258)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees18" type="Sprite2D" parent="."]
+position = Vector2(4650, 1251)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees19" type="Sprite2D" parent="."]
+position = Vector2(4320, 1271)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees20" type="Sprite2D" parent="."]
+position = Vector2(4044, 1264)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees21" type="Sprite2D" parent="."]
+position = Vector2(3789, 1278)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees22" type="Sprite2D" parent="."]
+position = Vector2(3574, 1266)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees9" type="Sprite2D" parent="."]
+position = Vector2(2359, 1253)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees10" type="Sprite2D" parent="."]
+position = Vector2(2027, 1259)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees3" type="Sprite2D" parent="."]
+position = Vector2(1433, 1256)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees4" type="Sprite2D" parent="."]
+position = Vector2(1106, 1256)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees5" type="Sprite2D" parent="."]
+position = Vector2(795, 1259)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
+
+[node name="Trees6" type="Sprite2D" parent="."]
+position = Vector2(500, 1263)
+scale = Vector2(2.4375, 3.03077)
+texture = ExtResource("4_k8baw")
